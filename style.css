@@ -1,3 +1,7 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
 body {
     background-color: #C8E6C9;
     background-image: url("img/ifal.jpeg");
@@ -6,23 +10,108 @@ body {
     background-position: center;
     background-attachment: fixed;
     font: normal 12pt Arial;
-    margin: 25px 20px;
+    /* Separação do corpo da página ~início~ */
+    display: grid;
+    position: relative;
+    grid-template-columns: 0.6fr 1.8fr 0.6fr;
+    grid-template-rows: 1.7fr 0.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "colunaesquerda colunaprincipal colunadireita"
+        "footer footer footer";
+    /* Separação do corpo da página ~fim~ */
+    
 }
-h1 {
-    background-color: #388E3C;
-    color: #ffffff;
+
+footer{
+    background-color: rgb(26, 24, 24);
+    grid-area: footer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
 }
-h2 {
-    background-color: #388E3C;
-    color: #ffffff;
-}
-ul {
-    color: #212121;
-}
-p {
-    color: #212121;
+footer a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 mark {
-    background-color: #FF5252;
+    background-color: #009432ab;
     color: #ffffff;
 }
+
+.logo source,img{
+    width: 100%;
+    height: auto;
+}
+
+.videocentralizado{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Corpo da página ~início~ */
+.colunaesquerda {
+    grid-area: colunaesquerda;
+}
+.colunadireita {
+    grid-area: colunadireita;
+}
+.colunaprincipal {
+    grid-area: colunaprincipal;
+    background-color: white;
+    
+}
+
+/* Corpo da página ~fim~ */
+
+
+/* Navbar início */
+nav {
+    color: #fff;
+    background-color: #009432;
+    width: 100%;
+    height: 40px;
+    top: 0px;
+    left: 0;
+    line-height: 1px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    float: right;
+}
+nav a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav .mudacor a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+nav .ativo{
+    background-color: #03b43e;
+  }
+nav .ativo a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+/* Navbar fim */
