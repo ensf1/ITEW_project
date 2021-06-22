@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
     <title>Sistemas de Informação - IFAL</title>
 	
 		<!-- favicons -->
@@ -29,7 +30,11 @@
 		<meta name="msapplication-config" content="/img/browserconfig.xml">
 </head>
 	<body>
-		<img src="./img/logo_ifal_mcz.png" alt="Logo do IFAL" width="480" height="189.75"/>
+		<picture> <!-- imagem flexível -->
+            <source media="(max-width: 800px)" srcset="img/ifal-p.png" type="image/png">
+            <source media="(max-width: 1000px)" srcset="img/ifal-m.png" type="image/png">
+            <img src="img/ifal-g.png" alt="Ifal Campus Maceio">
+        </picture>
 		<h1>Sistemas de Informação</h1>
 		<p>O(A) <mark>bacharel(a) em Sistemas da Informação atua de forma a especificar, desenvolver, testar,
 		implantar e gerenciar soluções computacionais complexas</mark> em atendimento as necessidades dos variados domínios de aplicação
@@ -64,11 +69,10 @@
 				 as suas demandas sociais e tecnológicas.
 			</li>
 		</ul>
-
-		<a href="./docentes.html" target="_blank"><h2>Professores</h2></a>
-		
+		<iframe width="480" height="300" src="https://www.youtube.com/embed/sV4zNwmHf7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<footer>
-			<a href="./membros.html" rel="author"><strong><small>Criadores da página</small></strong></a>
+			<a href="./docentes.html" rel="author"><strong><small>Professores</small></strong></a> |
+			<a href="./membros.html" rel="author" target="_blank"><strong><small>Criadores da página</small></strong></a>
 		</footer>    
 	</body>
 </html>

@@ -1,0 +1,28 @@
+body {
+    background-color: #C8E6C9;
+    background-image: url("img/ifal.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font: normal 12pt Arial;
+    margin: 25px 20px;
+}
+h1 {
+    background-color: #388E3C;
+    color: #ffffff;
+}
+h2 {
+    background-color: #388E3C;
+    color: #ffffff;
+}
+ul {
+    color: #212121;
+}
+p {
+    color: #212121;
+}
+mark {
+    background-color: #FF5252;
+    color: #ffffff;
+}
