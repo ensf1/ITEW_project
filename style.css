@@ -9,7 +9,8 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font: normal 12pt Arial;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     /* Separação do corpo da página ~início~ */
     display: grid;
     position: relative;
@@ -115,3 +116,28 @@ nav .ativo a:hover{
     background-color: rgba(0, 0, 0, 0.1);
   }
 /* Navbar fim */
+
+#tabeladasdisciplinas {
+    width: 100%;
+}
+table {
+    border: 1px solid #03b43e;
+    width: 50% ; 
+    margin: auto;
+}
+table th{
+    background-color: #03b43e;
+    color: white;
+    padding: 25px;
+}
+table td{
+    padding: 20px;
+}
+table tr:nth-child(odd) td{
+    background-color: #03b43e88;
+    color: white;
+}
+table tr:nth-child(even) td{
+    color: #03b43e;
+    
+}
