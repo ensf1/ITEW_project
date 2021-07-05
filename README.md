@@ -10,7 +10,9 @@
 * fonte alterada para Arial
 * imagem .jpeg de fundo no `<body>`
 * cores e cores de fundo para elementos diversos
-* [P7]
+* [P7] - NOVIDADES
+* fonte atualizada para Roboto do Google Fontes
 * nova páginca 'Disciplinas'
-* tabela zebrada
-* ...
+* tabela `<table>` centralizada com efeito zebrado e bordas arredondadas
+* elementos `<margin>` e `<padding>` na tabela, assim como em outras áreas                                                                                   
+* sombras na barra de navegação                                    
