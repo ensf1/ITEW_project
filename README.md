@@ -11,3 +11,5 @@
 * imagem .jpeg de fundo no `<body>`
 * cores e cores de fundo para elementos diversos
 * [P7]
+* nova páginca 'Disciplinas'
+* tabela zebrada
