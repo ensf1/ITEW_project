@@ -145,13 +145,8 @@ table tr:nth-child(even) td{
     color: #03b43e;
     
 }
-main {
-	width: 800px;
-	margin: 20px auto;
-	font-size: 1em;
-}
 
-main > a {
+div > a {
 	display: block;
 	background-color: #03b43e;
 	color:  white;
@@ -159,7 +154,7 @@ main > a {
 	padding: 10px;
 }
 
-main > a:hover {
+div > a:hover {
 	background-color: #03b43e88;
 	transition: background 0.5s;
 }
