@@ -151,7 +151,8 @@ div > a {
 	background-color: #03b43e;
 	color:  white;
 	text-decoration: none;
-	padding: 10px;
+	padding: 15px;
+    margin-bottom: 5px;
 }
 
 div > a:hover {
@@ -165,5 +166,5 @@ section {
 }
 
 section.visivel {
-	display:  block;
+	display: block;
 }
