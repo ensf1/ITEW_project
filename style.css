@@ -145,3 +145,26 @@ table tr:nth-child(even) td{
     color: #03b43e;
     
 }
+
+div > a {
+	display: block;
+	background-color: #03b43e;
+	color:  white;
+	text-decoration: none;
+	padding: 10px;
+   	margin-bottom: 5px;
+}
+
+div > a:hover {
+	background-color: #03b43e88;
+	transition: background 0.5s;
+}
+
+section {
+	padding: 10px;
+	display: none;
+}
+
+section.visivel {
+	display: block;
+}
