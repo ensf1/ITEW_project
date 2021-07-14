@@ -1,6 +1,6 @@
 ## ADIÇÕES E MUDANÇAS: 
 
-* ###[P5]
+* ### [P5]
 * elemento `<picture>`
 * barra de navegação `<nav>` com links para a página inicial e página dos docentes
 * elemento `<footer>` com link para página dos criadores 
