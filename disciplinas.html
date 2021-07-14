@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<title>Sistemas de Informação - IFAL</title>
+
+	
+		<!-- favicons -->
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="./img/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="./img/favicon-192.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="./img/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="./img/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="./img/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16.png">
+		<link rel="apple-touch-icon" href="./img/favicon-57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon-114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon-72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="./img/favicon-144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="./img/favicon-60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="./img/favicon-120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="./img/favicon-76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="./img/favicon-152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon-180.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="/img/favicon-144.png">
+		<meta name="msapplication-config" content="/img/browserconfig.xml">
+	</head>
+	<body>
+		<div class="colunaesquerda"></div>
+		<div class="colunaprincipal">
+            <picture class="logo"> <!-- imagem flexível -->
+                <source media="(min-width: 960px)" srcset="img/ifal-m.png" type="image/png">
+                <source media="(min-width: 600px)" srcset="img/ifal-p.png" type="image/png">
+                <img src="img/favicon-310.png" alt="Ifal Campus Maceio">
+            </picture>
+            
+            <nav>
+                <ul>
+                    <!-- <li class="mudacor"><a href="./disciplinas.html">Disciplinas</a></li> -->
+                    <li class="ativo"><a  href="">Disciplinas</a></li>
+                    <li class="mudacor"><a href="./docentes.html">Docentes</a></li>
+                    <li class="mudacor"><a  href="./index.html">O curso</a></li>
+                </ul>
+            </nav>
+            <div id="tabeladasdisciplinas">
+                <table>
+                    <tr>
+                        <th>Disciplina</th>
+                        <th>Período</th>
+                        <th>Carga Horária</th>
+                    </tr>
+                    <tr>
+                        <td>Fundamentos de Sistemas de Informação</td>
+                        <td>Primeiro</td>
+                        <td>80h</td>
+                    </tr>
+                    <tr>
+                        <td>Algoritmos e Lógica de Programação</td>
+                        <td>Primeiro</td>
+                        <td>80h</td>
+                    </tr>
+                    <tr>
+                        <td>Introdução a Tecnologias Web</td>
+                        <td>Primeiro</td>
+                        <td>40h</td>
+                    </tr>
+                    <tr>
+                        <td>Lógica Matemática e Matemática Discreta</td>
+                        <td>Primeiro</td>
+                        <td>80h</td>
+                    </tr>
+                </table>
+
+                <h2>Mais Informações</h2>
+                
+                <!-- Seções -->
+                <main>
+                    <a href="#" onclick="ativar_secao(1)">Fundamentos de Sistemas de Informação</a>
+                    <section>
+                        <h3>Ementa</h3>
+                        Sistemas de Informação nos negócios. Tomada de Decisão estratégica. E-Business. Softwares de
+                        sistemas e de aplicação. Sistemas de Banco de dados e inteligência de negócios. Telecomunicações e
+                        redes. Internet, Intranet e Extranet. Ética e segurança na Internet. Sistemas de Apoio à Decisão.
+                        Sistemas Especialistas. Privacidade nas empresas. Conversão Numérica. 
+                        <h3>Bibliografia Básica</h3>
+                        <ul>
+                            <li>
+                                <strong>BALTZAN</strong>, Paige; <strong>PHILLIPS</strong>, Amy. Sistemas de Informação. Tradução: Rodrigo Dubal.
+                                AMGH. 
+                            </li>
+                            <li>
+                                <strong>STAIR</strong>, Ralph M.; <strong>REYNOLDS</strong>, George. Princípios de Sistemas de Informação. Cengage
+                                Learning. 
+                            </li>
+                            <li>
+                                <strong>O'BRIEN</strong>, James A. Sistemas de Informação e as Decisões Gerenciais na Era da Internet.
+                                Editora Saraiva.
+                            </li>
+                        </ul>
+                        <h3>Bibliografia Complementar</h3>
+                        <ul>
+                            <li>
+                                <strong>CORTES</strong>, Pedro Luiz. Administração de Sistemas de Informação. Editora Saraiva.
+                            </li>
+                            <li>
+                                <strong>GORDON</strong>, Steven R.; <strong>GORDON</strong>, Judith. Sistemas de Informação: uma abordagem
+                                gerencial. Editora LTC. 
+                            </li>
+                            <li>
+                                <strong>SHITUKA</strong>, <strong>DORLIVETE</strong> M. Sistemas de Informação: um enfoque computacional. Editora
+                                Ciência Moderna.
+                            </li>
+                            <li>
+                                <strong>LAUDON</strong>, Kenneth C. <strong>LAUDON</strong>, Jane P.. Sistemas de Informacao: com Internet.
+                                Editora LTC.
+                            </li>
+                            <li>
+                                <strong>ALBUQUERQUE</strong>, Jader Cristiano Magalhães de. Sistemas de Informacao e Comunicacao
+                                no Setor Público. Editora UFSC.
+                            </li>
+                        </ul>
+                    </section>
+                    <a href="#" onclick="ativar_secao(2)">Algoritmos e Lógica de Programação</a>
+                    <section>
+                        <h3>Ementa</h3>
+                        Estudo dos conceitos básicos de algoritmos. Resolução de problemas de forma estruturada. Lógica
+                        de programação. Programação em Blocos. Estudo de funções, escopo e passagem de parâmetros.
+                        <h3>Bibliografia Básica</h3>
+                        <ul>
+                            <li>
+                                <strong>SEBESTA</strong>, Robert W. Conceitos de Linguagens de Programação . Editora Bookman.
+                            </li>
+                            <li>
+                                <strong>VILLAS</strong>, M. et. al. Estrutura de Dados – Conceitos e Técnicas de Implementação. Editora
+                                Campus.
+                            </li>
+                            <li>
+                                <strong>MANZANO</strong>, Jose Augusto N. G.. Algoritmos: Logica para Desenvolvimento de Programação de
+                                Computadores. Editora Erica. 
+                            </li>
+                        </ul>
+                        <h3>Bibliografia Complementar</h3>
+                        <ul>
+                            <li>
+                                <strong>TUCKER</strong>, Allen B; <strong>NOONAN</strong>, Robert E. Linguagens de programação: princípios e paradigmas
+                                McGraw-Hill.
+                            </li>
+                            <li>
+                                <strong>FARRER</strong>, Harry. Programação Estruturada e Estruturas de Dados. Editora Campus.
+                            </li>
+                            <li>
+                                <strong>LAGES</strong>, Newton A. de Castilho. Algoritmos e Estruturas se Dados. Editora LTC.
+                            </li>
+                            <li>
+                                <strong>ZIVIANI</strong>, Nivio. PROJETO DE ALGORITMOS. Editora Pioneira. 
+                            </li>
+                            <li>
+                               <strong>SOUZA</strong>, Marco Antônio Furlan de. Algoritmos e Logica de Programacao: Um Texto Introdutorio
+                                para Engenharia. Editora Cengage Learning.
+                            </li>
+                        </ul>
+
+                    </section>
+                    <a href="#" onclick="ativar_secao(3)">Introdução a Tecnologias Web</a>
+                    <section>
+                        <h3>Ementa</h3>
+                        Introdução a Tecnologias da Informação e Comunicação. Internet e Protocolo HTTP. Documentos
+                        HTML, Folhas de Estilos e Client-Side Script.
+                        <h3>Bibliografia Básica</h3>
+                        <ul>
+                            <li>
+                                <strong>SILVA</strong>, Mauricio Samy. Construindo Sites com CSS e (X)Html: Sites Controlados por Folhas De
+                                Estilo Cascata. Editora NOVATEC.
+                            </li>
+                            <li>
+                                <strong>GOODMAN</strong>, Danny. JAVA SCRIPT: A BIBLIA. Editora CAMPUS
+                            </li>
+                            <li>
+                                <strong>MORRISON</strong>, Michael. Use a Cabeça! Java Script. Editora ALTA BOOKS.
+                            </li>
+                        </ul>
+                        <h3>Bibliografia Complementar</h3>
+                        <ul>
+                            <li>
+                                <strong>SILVA</strong>, Mauricio Samy. CRIANDO SITES COM HTML: SITES DE ALTA QUALIDADE COM
+                                HTML E CCS. Editora NOVATEC.
+                            </li>
+                            <li>
+                                <strong>RUAS</strong>, Nilson da Silva. CRIANDO SITES WEB COM FOLHAS DE ESTILOS. Editora VISUAL
+                                BOOKS.
+                            </li>
+                            <li>
+                                <strong>TEAGUE</strong>, Jason Cranford. DHTML E CSS PARA WORLD WIDE WEB. Editora CAMPUS.
+                            </li>
+                            <li>
+                                <strong>LIBERTY</strong>, Jesse <strong>KRALEY</strong>, Mike. APRENDENDO A DESENVOLVER DOCUMENTOS XML
+                                PARA A WEB. Editora MAKRON BOOKS.
+                            </li>
+                        </ul>
+                    </section>
+                    <a href="#" onclick="ativar_secao(4)">Lógica Matemática e Matemática Discreta</a>
+                    <section>
+                        <h3>Ementa</h3>
+                        Fundamentos da Lógica. Lógica Proposicional. Teoria dos Conjuntos. Sequências. Teoria dos
+                        Números. Números Inteiros e Primos. Prova e Indução Matemática.
+                        <h3>Bibliografia Básica</h3>
+                        <ul>
+                            <li>
+                                <strong>FAVARO</strong>, Silvio. <strong>KMETEUK FILHO</strong>, Osmir. Noções Básicas de Matemática. Editora
+                                Ciência Moderna.
+                            </li>
+                            <li>
+                                <strong>BORBA</strong>, Marcelo de Carvalho; PENTEADO, Miriam Godoy. Iniciação a Lógica
+                                Matemática. Editora Nobel.
+                            </li>
+                            <li>
+                                <strong>BESPO</strong>, Carlos Alberto Ferreira. INTRODUCAO A LOGICA DA MATEMATICA. Editora
+                                CENGAGE LEARNING.
+                            </li>
+                        </ul>
+                        <h3>Bibliografia Complementar</h3>
+                        <ul>
+                            <li>
+                                <strong>CARNIELLI</strong>, W., <strong>EPSTEIN</strong>, R. L. Computabilidade, Funções Computáveis, Lógica e os
+                                Fundamentos da Matemática. Unesp/Fapesp.
+                            </li>
+                            <li>
+                                <strong>BARWISE</strong> J., <strong>ETCHEMENDY</strong> J. Language, Proof and Logic. CSLI Publications.
+                            </li>
+                            <li>
+                                <strong>ROSEN</strong>, K. H. Discrete Mathematics and Its Applications. McGraw-Hill.
+                            </li>
+                            <li>
+                                <strong>IEZZI</strong>, Gelson. FUNDAMENTOS DA MATEMATICA ELEMENTAR.ATUAL.
+                            </li>
+                            <li>
+                                <strong>MURAKAMI</strong>, Carlos. <strong>MURAKAMI</strong>, Carlos. FUNDAMENTOS DE MATEMATICA
+                                ELEMENTAR. Conjuntos e Funções. Editora Atual.
+                            </li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+
+        </div>
+		<div class="colunadireita"></div>
+		<footer>
+			<a href="./membros.html" rel="author" target="_blank"><strong><small>Criadores da página</small></strong></a>
+		</footer> 
+        <!-- JavaScript -->
+        <script type="text/javascript">
+            function ativar_secao(num) {
+                document.querySelector("section:nth-of-type(" + num + ")").classList.toggle("visivel");
+            }
+        </script>
+	</body>
+</html>
