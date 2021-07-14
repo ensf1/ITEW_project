@@ -16,3 +16,5 @@
 * tabela `<table>` centralizada com efeito zebrado e bordas arredondadas
 * elementos `<margin>` e `<padding>` na tabela, assim como em outras áreas                                                                                   
 * sombras na barra de navegação                                    
+### [P8] - NOVIDADES
+* adicionado Accordion com javascript na página disciplinas, com informações básicas sobre os componentes. 
