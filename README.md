@@ -17,4 +17,4 @@
 * elementos `<margin>` e `<padding>` na tabela, assim como em outras áreas                                                                                   
 * sombras na barra de navegação                                    
 ### [P8] - NOVIDADES
-* adicionado Accordion com javascript na página disciplinas, com informações básicas sobre os componentes. 
+* adicionado accordion com javascript na página 'Disciplinas', com informações básicas sobre os componentes.
